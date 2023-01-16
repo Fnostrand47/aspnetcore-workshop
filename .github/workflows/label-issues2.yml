@@ -1,5 +1,4 @@
 name: Issue Labeler
-
   uses: andymckay/labeler@1.0.4
   with:
     # The GitHub token

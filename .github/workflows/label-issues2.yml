@@ -4,10 +4,8 @@
   with:
     # The GitHub token
     repo-token:${{ github.token }}
-    # Labels to add to an issue, seperated by commas.
-    add-labels: "triage"
+    add-labels:"triage"
     # Labels to be removed from an issue, seperated by commas.
      # True/False value to indicate if no labels should be added or removed if there is an assignee to the issue.
-    ignore-if-assigned: # optional
-    # True/False value to indicate if no labels should be added or removed if the issue already has labels.
+       # True/False value to indicate if no labels should be added or removed if the issue already has labels.
     ignore-if-labeled: "Working"
